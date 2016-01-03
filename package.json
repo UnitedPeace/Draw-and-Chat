@@ -1,0 +1,11 @@
+{
+   "name": "Draw & Chat",
+   "version": "1.0.0",
+   "description": "Draw and Chat With Friends",
+   "author": "Artsrun",
+   "dependencies": {
+      "express": "^4.16.3",
+      "http": "0.0.0",
+      "socket.io": "^2.1.1"
+   }
+}

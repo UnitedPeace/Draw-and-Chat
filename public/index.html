@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Draw and Chat</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.slim.js"></script>
+	<script src="client.js"></script>
+</head>
+<body>
+<h1>Draw and Chat Demo</h1>
+	<div class="canvas-wrapper">
+		<input id="brushColor" class="jscolor" disabled value="cc66ff">
+		<button id="clearCanvas">Clear</button>
+		<canvas width="500" height="500" id="board"></canvas>
+	</div>
+	<div class="chat-box">
+		<div class="chat-head">
+			<h2>Chat Box</h2>
+			<img src="https://maxcdn.icons8.com/windows10/PNG/16/Arrows/angle_down-16.png" title="Expand Arrow" width="16">
+		</div>
+		<div class="chat-body">
+			<div class="msg-insert">
+			</div>
+			<div class="chat-text">
+				<textarea placeholder="Send"></textarea>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
